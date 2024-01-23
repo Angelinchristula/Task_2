@@ -1,0 +1,45 @@
+body {
+    
+    height: 100vh;
+    margin: 0;
+    background-image: url("bg_image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-image: no-repeat; */
+}
+label{
+    display: inline-block;
+    width: 100px;    
+}
+h3{
+    text-align: center;
+}
+button{
+    margin-left: 50px;
+}
+form{
+    width: 300px;    
+}
+#left-container{
+    background-color: white;
+    float: left;
+    width: 40%;
+    height: 100%;
+}
+#right-container{
+
+    background-color: white;
+    /* float: left; */
+    width: 40%;
+    height: 100%;
+    margin: 20px;
+    padding: 30px;
+}
+#mainWrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;   
+}
+/* .center-div {
+    text-align: center;
+} */
